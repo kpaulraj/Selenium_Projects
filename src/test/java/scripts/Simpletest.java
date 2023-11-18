@@ -36,6 +36,7 @@ public class Simpletest {
     @Test(priority=3)
     public void checkbodyMsg() {
     	String bMsg=driver.findElement(By.xpath("/html/body/div/main/section[1]/div/div/div/h1")).getText();
+    	System.out.println(bMsg);
     	Assert.assertEquals(bMsg,"Selenium automates browsers. That's it!");
     }
     

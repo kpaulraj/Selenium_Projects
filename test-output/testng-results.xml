@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-11-17T17:49:33 CST" name="Suite" finished-at="2023-11-17T17:49:39 CST" duration-ms="5923">
+  <suite started-at="2023-11-17T18:30:36 CST" name="Suite" finished-at="2023-11-17T18:30:43 CST" duration-ms="6702">
     <groups>
     </groups>
-    <test started-at="2023-11-17T17:49:33 CST" name="Default test" finished-at="2023-11-17T17:49:39 CST" duration-ms="5923">
+    <test started-at="2023-11-17T18:30:36 CST" name="Default test" finished-at="2023-11-17T18:30:43 CST" duration-ms="6702">
       <class name="scripts.Simpletest">
-        <test-method is-config="true" signature="doThisBefore()[pri:0, instance:scripts.Simpletest@183ec003]" started-at="2023-11-17T17:49:33 CST" name="doThisBefore" finished-at="2023-11-17T17:49:37 CST" duration-ms="4712" status="PASS">
+        <test-method is-config="true" signature="doThisBefore()[pri:0, instance:scripts.Simpletest@7d9d0818]" started-at="2023-11-17T18:30:37 CST" name="doThisBefore" finished-at="2023-11-17T18:30:42 CST" duration-ms="5448" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- doThisBefore -->
-        <test-method signature="getTitle()[pri:1, instance:scripts.Simpletest@183ec003]" started-at="2023-11-17T17:49:37 CST" name="getTitle" finished-at="2023-11-17T17:49:37 CST" duration-ms="28" status="PASS">
+        <test-method signature="getTitle()[pri:1, instance:scripts.Simpletest@7d9d0818]" started-at="2023-11-17T18:30:42 CST" name="getTitle" finished-at="2023-11-17T18:30:42 CST" duration-ms="34" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getTitle -->
-        <test-method signature="checkMenuitem1()[pri:2, instance:scripts.Simpletest@183ec003]" started-at="2023-11-17T17:49:37 CST" name="checkMenuitem1" finished-at="2023-11-17T17:49:38 CST" duration-ms="53" status="PASS">
+        <test-method signature="checkMenuitem1()[pri:2, instance:scripts.Simpletest@7d9d0818]" started-at="2023-11-17T18:30:42 CST" name="checkMenuitem1" finished-at="2023-11-17T18:30:42 CST" duration-ms="50" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkMenuitem1 -->
-        <test-method is-config="true" signature="cleanMethod()[pri:0, instance:scripts.Simpletest@183ec003]" started-at="2023-11-17T17:49:38 CST" name="cleanMethod" finished-at="2023-11-17T17:49:39 CST" duration-ms="1002" status="PASS">
+        <test-method signature="checkbodyMsg()[pri:3, instance:scripts.Simpletest@7d9d0818]" started-at="2023-11-17T18:30:42 CST" name="checkbodyMsg" finished-at="2023-11-17T18:30:42 CST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkbodyMsg -->
+        <test-method is-config="true" signature="cleanMethod()[pri:0, instance:scripts.Simpletest@7d9d0818]" started-at="2023-11-17T18:30:42 CST" name="cleanMethod" finished-at="2023-11-17T18:30:43 CST" duration-ms="1024" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanMethod -->

@@ -33,6 +33,11 @@ public class Simpletest {
     	String mItem1=driver.findElement(By.xpath("//*[@id='navbarDropdown']")).getText();
     	Assert.assertEquals(mItem1,"About");
     }
+    @Test(priority=3)
+    public void checkbodyMsg() {
+    	String bMsg=driver.findElement(By.xpath("/html/body/div/main/section[1]/div/div/div/h1")).getText();
+    	Assert.assertEquals(bMsg,"Selenium automates browsers. That's it!");
+    }
     
     @AfterTest
     public void cleanMethod() {

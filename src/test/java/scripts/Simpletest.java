@@ -11,7 +11,8 @@ import org.testng.annotations.Test;
 
 public class Simpletest {
 	public static final String path = "C:/Kalpana/Installable/Drivers/chromedriver.exe";
-	public static WebDriver driver; 
+	public static WebDriver driver;
+	public String mergeText="SimpleTest-msg";
 	@BeforeTest
 	public void doThisBefore(){
 	    ChromeOptions option = new ChromeOptions();
@@ -34,17 +35,18 @@ public class Simpletest {
     	Assert.assertEquals(mItem1,"About");
     }
 
-    @Test(priority=4)
+    @Test(priority=3)
     public void checkbodyMsg1() {
     	String bMsg=driver.findElement(By.xpath("/html/body/div/main/section[1]/div/div/div/h1")).getText();
     	System.out.println(bMsg+"!");
     	Assert.assertEquals(bMsg,"Selenium automates browsers. That's it!");
     }
-	   @Test(priority=4)
-	    public void checkMenuitem1Dup() {
+	@Test(priority=4)
+	public void checkMenuitem1Dup() {
     	String mItem1=driver.findElement(By.xpath("//*[@id='navbarDropdown']")).getText();
     	Assert.assertEquals(mItem1,"About");
-    
+    	mergeText ="From SimpleTest";
+	}
     
     @AfterTest
     public void cleanMethod() {

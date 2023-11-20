@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class Simpletest {
 	public static final String path = "C:/Kalpana/Installable/Drivers/chromedriver.exe";
 	public static WebDriver driver; 
-	String mergeText ="SimpleTest";
+	public String mergeText="Clone Simple Test";
 	@BeforeTest
 	public void doThisBefore(){
 	    ChromeOptions option = new ChromeOptions();
@@ -44,9 +44,8 @@ public class Simpletest {
 	    public void checkMenuitem1Dup() {
     	String mItem1=driver.findElement(By.xpath("//*[@id='navbarDropdown']")).getText();
     	Assert.assertEquals(mItem1,"About");
-		mergeText ="From Clone SimpleTest";
-		System.out.println(mergeText);
-    
+		System.out.println(mergeTest);
+		}
     
     @AfterTest
     public void cleanMethod() {

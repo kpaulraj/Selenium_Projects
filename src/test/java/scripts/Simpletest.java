@@ -45,7 +45,7 @@ public class Simpletest {
     	String mItem1=driver.findElement(By.xpath("//*[@id='navbarDropdown']")).getText();
     	Assert.assertEquals(mItem1,"About");
 		System.out.println(mergeTest);
-		System.out.println("kalpana");
+		System.out.println("kalpana paulraj");
 		}
     
     @AfterTest

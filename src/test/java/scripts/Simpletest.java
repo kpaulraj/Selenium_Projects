@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class Simpletest {
 	public static final String path = "C:/Kalpana/Installable/Drivers/chromedriver.exe";
-	public static WebDriver driver;
+	public static WebDriver driver; 
 	public String mergeText="Clone Simple Test";
 	@BeforeTest
 	public void doThisBefore(){

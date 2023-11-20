@@ -45,8 +45,10 @@ public class Simpletest {
 	public void checkMenuitem1Dup() {
     	String mItem1=driver.findElement(By.xpath("//*[@id='navbarDropdown']")).getText();
     	Assert.assertEquals(mItem1,"About");
-    	System.out.println(mergeText);
-	}
+		System.out.println(mergeTest);
+		System.out.println("kalpana");
+		}
+>>>>>>> kalps
     
     @AfterTest
     public void cleanMethod() {

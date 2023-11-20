@@ -40,6 +40,11 @@ public class Simpletest {
     	System.out.println(bMsg+"!");
     	Assert.assertEquals(bMsg,"Selenium automates browsers. That's it!");
     }
+	   @Test(priority=4)
+	    public void checkMenuitem1Dup() {
+    	String mItem1=driver.findElement(By.xpath("//*[@id='navbarDropdown']")).getText();
+    	Assert.assertEquals(mItem1,"About");
+    
     
     @AfterTest
     public void cleanMethod() {
